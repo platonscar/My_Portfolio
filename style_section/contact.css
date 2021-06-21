@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
 }
 /* ----- HEADER ----- */
 header {
@@ -29,7 +30,36 @@ header {
     margin: 0 25px;
 }
 a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #000000;
     font-size: 20px;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
 }
+a:hover {
+    /* border-bottom: 2px solid #F3E4C2; */
+    text-decoration-color: #F3E4C2;
+}
+/* ----- MAIN ----- */
+/* .fas {
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    padding: 0 25px;
+}
+.content {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.logo {
+    text-align: center;
+}
+.contact_wrapper > * {
+    padding: 15px;
+}
+.contact_form form{
+    margin: 0;
+    padding: 30px;
+} */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +11,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <!-- icons -->
     <script src="https://kit.fontawesome.com/e6497ee90f.js" crossorigin="anonymous"></script>
-    <title>Career History</title>
+    <title>Contact</title>
 </head>
+
 <body>
     <header>
         <section class="wrapper_nav">
             <div class="logo">
-                <img src="../assets/logo_scar.svg" alt="logo" width="200px">
+                <a href="../index.html"><img src="../assets/logo_scar.svg" alt="logo" width="200px" id="logo"></a>
             </div>
-                        <!-- Nav -->
-                <ul class="nav_menu">
-                    <li class="nav_list"><a href="./html_sections/about.html">About</a></li>
-                    <li class="nav_list"><a href="./html_sections/Education.html">Education</a></li>
-                    <li class="nav_list"><a href="./html_sections/portfolio.html">Portfolio</a></li>
-                    <li class="nav_list"><a href="./html_sections/Contact.html">Contact</a></li>
-                </ul>
-                        <!-- </nav> -->
+            <!-- Nav -->
+            <ul class="nav_menu">
+                <li class="nav_list"><a href="../html_sections/about.html">About</a></li>
+                <li class="nav_list"><a href="../html_sections/portfolio.html">Portfolio</a></li>
+                <li class="nav_list"><a href="../html_sections/Contact.html">Contact</a></li>
+            </ul>
+            <!-- </nav> -->
         </section>
     </header>
+    <!-- Main -->
+    <main class="content">
+        <h1 class="logo">Contact Me</h1>
+        <section class="contact_wrapper">
+            <div class="contact_form">
+                <!-- <h3>¡Contact!</h3> -->
+                <form action="#">
+                    <p>
+                        <label for="fullname">Name</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </p>
+                    <p>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone">
+                    </p>
+                    <p>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact_info">
+                <h4>More Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt">Región Metropolitana, Santiago de Chile</i></li>
+                    <li><i class="fas fa-phone">+569 31475884</i></li>
+                    <li><i class="fas fa-envelope">Platonscar@gmail.com</i></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>

@@ -9,7 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- css animation -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- icons -->
     <script src="https://kit.fontawesome.com/e6497ee90f.js" crossorigin="anonymous"></script>
     <title>Scarlett Platón</title>
@@ -19,12 +22,11 @@
     <header>
         <section class="wrapper_nav">
             <div class="logo">
-                <img src="./assets/logo_scar.svg" alt="logo" width="200px">
+                <a href="index.html"><img src="./assets/logo_scar.svg" alt="logo" width="200px" id="logo"></a>
             </div>
                         <!-- Nav -->
                 <ul class="nav_menu">
                     <li class="nav_list"><a href="./html_sections/about.html">About</a></li>
-                    <li class="nav_list"><a href="./html_sections/Education.html">Education</a></li>
                     <li class="nav_list"><a href="./html_sections/portfolio.html">Portfolio</a></li>
                     <li class="nav_list"><a href="./html_sections/Contact.html">Contact</a></li>
                 </ul>
@@ -34,7 +36,7 @@
     <!-- Main section -->
     <main>
         <div class="container">
-            <section class="about">
+            <section class="about animate__animated animate__fadeInLeft">
                 <br>
                 <p>
                     I started to get into the world of programming
@@ -47,8 +49,8 @@
                     am motivated to learn new technologies.
                 </p>
             </section>
-            <section class="picture">
-                <img src="./assets/my_picture.jpg" alt="my_picture" class="my_picture">
+            <section class="picture about animate__animated animate__fadeInRight">
+                <img src="./assets/my_picture.jpg" alt="my_picture" width="400px" class="my_picture">
             </section>
         </div>
     </main>
@@ -57,7 +59,7 @@
         <p>S K I L L S</p>
     </div>
     <section class="soft_hard_container">
-        <div class="soft_container">
+        <div class="soft_container animate__animated animate__fadeInLeft">
             <p class="soft_p">Soft</p>
             <section class="soft">
                 <ul class=" soft_list">
@@ -68,7 +70,7 @@
                 </ul>
             </section>
         </div>
-        <div class="hard_container">
+        <div class="hard_container animate__animated animate__fadeInRight">
             <p class="hard_p">Hard</p>
             <section class="hard">
                 <ul class="hard_list">
@@ -91,13 +93,10 @@
             <input type="button" value="S E N D">
         </form> -->
         <div class="contact_social">
-            <div class="number">
-                <p>+569 31475884</p>
-            </div>
             <div class="social_media">
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/platonscar" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/PlatonScar" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/scarlett-platón/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
