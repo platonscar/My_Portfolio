@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 /* ----- HEADER ----- */
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
 header {
     width: 70%;
     height: 50%;   
@@ -30,36 +34,118 @@ header {
     margin: 0 25px;
 }
 a {
-    /* text-decoration: none; */
     color: #000000;
     font-size: 20px;
     text-decoration: underline 0.15em rgba(255, 255, 255, 0);
     transition: text-decoration-color 300ms;
 }
 a:hover {
-    /* border-bottom: 2px solid #F3E4C2; */
     text-decoration-color: #F3E4C2;
 }
 /* ----- MAIN ----- */
-/* .fas {
-    font-family: 'Quicksand', sans-serif;
-}
 body{
     padding: 0 25px;
 }
 .content {
-    max-width: 100%;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+    margin-top: 50px;
 }
-.logo {
+.contact-me {
     text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+form p {
+    padding: 10px;
+}
+.contact_wrapper {
+    box-shadow: 0 0 20px 0 #d4d4d7;
 }
 .contact_wrapper > * {
-    padding: 15px;
+    padding: 10px;
 }
-.contact_form form{
+.contact_form {
+    background-color: #f7f7f7;
+}
+.contact_form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact_form form .block {
+    display: grid;
+    grid-column: 1 / 3; /*abarca de principio a fin */
+}
+.contact_form form p{
     margin: 0;
-    padding: 30px;
-} */
+    padding: 1em;
+}
+.contact_info {
+    background-color: #F3E4C2;
+}
+.contact_form form button, .contact_form form input, .contact_form form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #F3E4C2;
+    outline: none;
+    color: #000;
+    cursor: pointer;
+}
+.contact_form form button:hover, .contact_form form button:focus {
+    background: #F3E4C2;
+    transition: background-color .5s ease-in-out ;
+    outline: 0;
+}
+.contact_form form p button {
+    background: #d4d4d7;
+    border: 0;
+    padding: 15px;
+    width: 200px;
+    margin: 0 auto;
+}
+.contact_info ul, .contact_info p {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.contact_info ul {
+    list-style: none;
+    padding: 0;
+}
+.contact_info ul li{
+    padding: 5px;
+}
+.fa-map-marker-alt, .fa-phone, .fa-envelope{
+    padding-right: 20px;
+}
+.button_send {
+    border-radius: 50px;
+}
+
+/*----- desktop -----*/
+@media (min-width: 700px) {
+    body {
+        padding: 0 10px;
+    }
+    .contact_wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact_wrapper > * {
+        padding: 10px;
+    }
+    .contact_info ul, .contact_info p {
+        padding: 30px;
+        text-align: left;
+    }
+    .contact_info-ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_info ul {
+        margin-top: 50%;
+    }
+}
