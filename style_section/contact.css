@@ -56,6 +56,7 @@ body{
 .contact-me {
     text-align: center;
     margin-bottom: 25px;
+    font-size: 34px;
     font-family: 'Dancing Script', cursive;
 }
 form p {
@@ -70,14 +71,6 @@ form p {
 .contact_form {
     background-color: #f7f7f7;
 }
-/* .contact_form form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
-/* .contact_form form .block {
-    display: grid;
-    grid-column: 1 / 3; /*abarca de principio a fin */
-/* }  */
 .contact_form form p{
     margin: 0 auto;
     padding: 1em;
@@ -100,8 +93,14 @@ form p {
 }
 .contact_form form button:hover, .contact_form form button:focus {
     background: #F3E4C2;
-    transition: background-color .5s ease-in-out ;
+    transition: background-color 1.5s ease-in-out ;
     outline: 0;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.button_send {
+    border-radius: 50px;
+    cursor: pointer;
 }
 .contact_form form p button {
     background: #d4d4d7;
@@ -124,12 +123,6 @@ form p {
 .fa-map-marker-alt, .fa-phone, .fa-envelope{
     padding-right: 20px;
 }
-.button_send {
-    border-radius: 50px;
-    cursor: pointer;
-
-}
-
 /*----- desktop -----*/
 @media (min-width: 700px) {
     body {

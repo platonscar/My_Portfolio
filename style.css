@@ -106,6 +106,7 @@ a:hover {
 }
 .hard_list-secundary, .soft_list-secundary {
     padding: 10px;
+    font-size: 18px;
 }
 .soft_list, .hard_list {
     list-style: none;
