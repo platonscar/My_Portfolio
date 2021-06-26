@@ -52,7 +52,7 @@ a:hover {
     background: -moz-radial-gradient(center, #F3E4C2, #FFFFFF);
     background: radial-gradient(ellipse at center, #F3E4C2, #FFFFFF);
     border-radius: 20px;
-    width: 10%;
+    width: 50%;
     margin: 0 auto;
     padding: 10px;
     font-size: 34px;
