@@ -46,12 +46,6 @@ a:hover {
     text-align: center;
 }
 .about_me-p p {
-    /* box-shadow: 5px 2px 5px 0px #d4d4d7; */
-    background: #F3E4C2;
-    background: -webkit-radial-gradient(center, #F3E4C2, #FFFFFF);
-    background: -moz-radial-gradient(center, #F3E4C2, #FFFFFF);
-    background: radial-gradient(ellipse at center, #F3E4C2, #FFFFFF);
-    border-radius: 20px;
     width: 50%;
     margin: 0 auto;
     padding: 10px;

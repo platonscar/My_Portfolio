@@ -37,6 +37,7 @@ a {
 }
 a:hover {
     text-decoration-color: #F3E4C2;
+    color: inherit;
 }
 /* ----- MAIN PORT CONTAINER -----*/
 .port_title {
@@ -46,7 +47,7 @@ a:hover {
     text-align: center;
 }
 .port_title p {
-    width: 10%;
+    /* width: 10%; */
     margin: 0 auto;
     padding: 10px;
     font-size: 34px;
@@ -81,3 +82,13 @@ a:hover {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
+/* ----- CAROUSEL BOOTSTRAP ----- */
+.container_carousel {
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    background-color: lightgray;
+ }
