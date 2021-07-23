@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,33 +11,74 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- css animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- icons -->
     <script src="https://kit.fontawesome.com/e6497ee90f.js" crossorigin="anonymous"></script>
     <title>About</title>
 </head>
+
 <body>
     <header>
         <section class="wrapper_nav">
             <div class="logo">
                 <a href="../index.html"><img src="../assets/logo_scar.svg" alt="logo" width="200px" id="logo"></a>
             </div>
-                        <!-- Nav -->
-                <ul class="nav_menu">
-                    <li class="nav_list"><a href="../html_sections/about.html">About</a></li>
-                    <li class="nav_list"><a href="../html_sections/portfolio.html">Portfolio</a></li>
-                    <li class="nav_list"><a href="../html_sections/Contact.html">Contact</a></li>
-                </ul>
-                        <!-- </nav> -->
+            <!-- Nav -->
+            <ul class="nav_menu">
+                <li class="nav_list"><a href="../html_sections/about.html">About</a></li>
+                <li class="nav_list"><a href="../html_sections/portfolio.html">Portfolio</a></li>
+                <li class="nav_list"><a href="../html_sections/Contact.html">Contact</a></li>
+            </ul>
+            <!-- </nav> -->
         </section>
     </header>
     <!-- Main -->
-    <main class="about_container_main">
-        <div class="about_me-p">
+    <main class="about_container_main animate__animated animate__fadeInDown">
+        <div class="about_me-p ">
             <p>¡About Me!</p>
         </div>
         <section class="about_me_description">
-            <p></p>
+            <p class="about_me_description-p ">
+                I am a person who knows and likes to work in a team, committed, creative and organized.
+                I have knowledge in the area of Front-end with the handling of HTML, CSS and JavaScript, I am currently
+                studying in bootcamps where I will learn React to have more tools in the area that I perform.
+                I am self-taught and I enjoy learning new things to continue growing professionally, which is why I am
+                motivated to learn new technologies.
+            </p>
+            <div class="education">
+                <p>Education</p>
+            </div>
         </section>
+        <article class="about_education ">
+            <div class="education_section">
+                <ul class="education_ul">
+                    <li class="education_list">
+                        <p class="education_title">Instituto Universitario de Diseño las Mercedes</p>
+                        <p class="education_subtitle">
+                            <b>Fashion Design</b>
+                        </p>
+                    </li>
+                    <li class="education_list">
+                        <p class="education_title">
+                            Acámica, Santiago de chile, Chile
+                        </p>
+                        <p class="education_subtitle">
+                            <b>Front-end web development</b>
+                        </p>
+                    </li>
+                    <li class="education_list">
+                        <p class="education_title">
+                            CoderHouse, Santiago de chile, Chile
+                        </p>
+                        <p class="education_subtitle">
+                            <b>Front-end web development</b>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </article>
     </main>
 </body>
+
 </html>
